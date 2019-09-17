@@ -29,7 +29,7 @@
 
     <!-- Logo starts -->
     <a href="<?php echo Yii::app()->baseUrl; ?>/home" class="logo">
-        <img src="<?php echo Yii::app()->baseUrl; ?>/static/img/logo_sakip.png" alt="logo">
+        <img src="<?php echo Yii::app()->baseUrl; ?>/static/img/logo_kab.png" alt="logo">
     </a>
     <!-- Logo ends -->
     <!-- Extras starts -->
@@ -139,11 +139,11 @@
                             <span>Data I.K.U</span>
                         </a>
                     </li>
-                    <li>
+                    <!-- <li>
                         <a href='<?php echo Yii::app()->baseUrl; ?>/dataiku/test' <?php echo $ctrlName === "dataiku" ? "class='select'" : "" ?>>
                             <span>Pilih IKU</span>
                         </a>
-                    </li>
+                    </li> -->
                     <!-- <li>
                         <a href='<?php /*echo Yii::app()->baseUrl;*/ ?>/rencanaaksi'  <?php /*echo $ctrlName==="rencanaaksi"?"class='select'":"" */ ?>>
                             <span>Rencana Aksi</span>
