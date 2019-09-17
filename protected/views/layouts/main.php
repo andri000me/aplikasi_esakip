@@ -28,45 +28,38 @@
 
 <body>
 
-<div class="navbar navbar-default navbar-fixed-top" role="navigation">
-    <div class="container">
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="<?php echo Yii::app()->baseUrl; ?>">
-                    <img src="<?php echo Yii::app()->baseUrl; ?>/static/img/logo_sakip.png">
-            </a>
-            <p class="navbar-text hidden-xs hidden-md hidden-sm"
-               style="max-width:250px;line-height: 120%;padding-top:5px">Laman Akuntabilitas Kinerja Instansi Pemerintah Daerah Provinsi Jawa Barat</p>
-        </div>
-        <div class="navbar-collapse collapse">
-            <!-- Left nav -->
-            <ul class="nav navbar-nav navbar-right">
-                <li><a href="<?php echo Yii::app()->baseUrl; ?>/lkip">LKIP</a></li>
-                <li><a href="<?php echo Yii::app()->baseUrl; ?>/peraturan">Peraturan/UU</a></li>
-                <li><a href="<?php echo Yii::app()->baseUrl; ?>/istilah">Istilah Sakip</a></li>
-                <!--<li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Informasi<b
-                                    class="caret"></b></a>
-                        <ul class="dropdown-menu">
-                            <li><a href="<?php /*echo Yii::app()->baseUrl; */?>/peraturan">Peraturan/UU</a></li>
-                            <li><a href="<?php /*echo Yii::app()->baseUrl; */?>/istilah">Daftar Istilah</a></li>
-                        </ul>
-                    </li>-->
-                <!--<li><a href="<?php /*echo Yii::app()->baseUrl; */?>/kontak">Kontak</a></li>-->
-                <?php if (Yii::app()->user->isGuest) { ?>
-                    <li><a href="<?php echo Yii::app()->baseUrl; ?>/login" >SignIn</a></li>
-                <?php } else { ?>
-                    <li><a href="<?php echo Yii::app()->baseUrl; ?>/site/logout">Signout</a></li>
-                <?php } ?>
-            </ul>
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="<?php echo Yii::app()->baseUrl; ?>">
+        <img src="<?php echo Yii::app()->baseUrl; ?>/static/img/logo_sakip.png">
+      </a>
+      <p class="navbar-text hidden-xs hidden-md hidden-sm" style="max-width:250px;line-height: 120%;padding-top:5px">Laman Akuntabilitas Kinerja Instansi Pemerintah Daerah Kabupaten Sukabumi</p>
+    </div>
 
-        </div><!--/.nav-collapse -->
-    </div><!--/.container -->
-</div>
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="<?php echo Yii::app()->baseUrl; ?>/lkip">LKIP</a></li>
+        <li><a href="<?php echo Yii::app()->baseUrl; ?>/peraturan">Peraturan/UU</a></li>
+        <li><a href="<?php echo Yii::app()->baseUrl; ?>/istilah">Istilah Sakip</a></li>
+        <?php if (Yii::app()->user->isGuest) { ?>
+            <li><a href="<?php echo Yii::app()->baseUrl; ?>/login" >SignIn</a></li>
+        <?php } else { ?>
+            <li><a href="<?php echo Yii::app()->baseUrl; ?>/site/logout">Signout</a></li>
+        <?php } ?>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
 
 <div class="container-fluid" style="margin-top:60px;">
     <?php echo $content; ?>

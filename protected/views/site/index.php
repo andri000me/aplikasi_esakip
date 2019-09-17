@@ -8,7 +8,6 @@
                     <img src="<?= Yii::app()->baseUrl; ?>/static/img/gdgsate1240x600.jpg" alt=""
                          >
                     <div class="carousel-caption hidden-xs">
-
                         <h3>Jawa Barat Maju dan Sejahtera untuk Semua</h3>
                     </div>
                 </div>
