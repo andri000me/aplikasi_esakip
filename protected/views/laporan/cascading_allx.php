@@ -1,14 +1,14 @@
 <!-- Top Bar Starts -->
  <?php 
-        $id_instansi =Yii::app()->user->getOpd();
         $visi=Visi::model()->find('id_instansi=:id_instansi', array('id_instansi' => $id_instansi));
         $instansi=Opd::model()->find('id_instansi=:id_instansi', array('id_instansi' => $id_instansi));
+        $uzer=Users::model()->find('id_instansi=:id_instansi', array('id_instansi' => $id_instansi));
+        $id_role = $uzer['id_role'];
         //$pejabat=Pejabat::model()->find('id_instansi=:id_instansi and parent_id=:parent_id', array('id_instansi' => $id_instansi,'parent_id' => 1));
         $misi = Misi::model()->findAll(array("condition"=>"idinstansi='".$id_instansi."'"));
         $misieselonempat = IndikatorEselonEmpat::model()->findAll(array("condition"=>"id_instansi='".$id_instansi."' GROUP BY idpejabat_eselon_empat ASC"));
         $pejabateselontiga = Pejabat::model()->findAll(array("condition"=>"id_instansi='".$id_instansi."' and parent_id=1 "));
         $pejabateselonempat = Pejabat::model()->findAll(array("condition"=>"id_instansi='".$id_instansi."' and parent_id!=1 and parent_id != 0 GROUP BY id "));
-
         
         $temp = 3 * count($misi);
         ?>
@@ -19,32 +19,18 @@
             <?php echo $title?> <?php echo strtoupper($instansi["nama_instansi"]);?> <?php echo Yii::app()->user->getTahun(); ?>
         </h4>
     </div>
-
     <div class="pull-right" id="mini-nav-right">
-
-        <a href="<?php echo Yii::app()->baseUrl; ?>/laporan/indexCascading" class="btn btn-info btn-xs" rel="tooltip"
-           data-original-title="Data Sasaran Eselon 4">
-            Upload File Cascading
-        </a>
-
-        <a href="<?php echo Yii::app()->baseUrl; ?>/laporan/exportpdfcascading" class="btn btn-warning btn-xs" rel="tooltip"
+        <a href="<?php echo Yii::app()->baseUrl; ?>/laporan/exportpdfcascading_all/<?=$id_instansi?>" class="btn btn-warning btn-xs" rel="tooltip"
            data-original-title="Export PDF">
            Export PDF
         </a>
 
-        <a href="<?php echo Yii::app()->baseUrl; ?>/laporan/exportexcelcascading" class="btn btn-success btn-xs" rel="tooltip"
+        <a href="<?php echo Yii::app()->baseUrl; ?>/laporan/exportexcelcascading_all/<?=$id_instansi?>" class="btn btn-success btn-xs" rel="tooltip"
            data-original-title="Export Excel">
             Export Excel
         </a>
     </div>
 </div>
-
-<div class="form-group">
-                <div class="col-sm-offset-0 col-sm-5">
-                    <?php echo TbHtml::alert(TbHtml::ALERT_COLOR_DANGER,
-                        '<p> Jika struktur cascading yang ditampilkan tidak sesuai, User dapat mengunggah file cascading (struktur file cascading yang telah dibuat manual oleh user) dalam format file (.jpg / .png / .pdf / .doc / .docx / .xlsx / .xls)</p>'); ?>
-                </div>
-            </div>
 <!-- Container fluid Starts -->
 <div class="container-fluid">
 

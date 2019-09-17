@@ -5,7 +5,6 @@ Yii::app()->clientScript->registerScriptFile(
 Yii::app()->baseUrl.'/static/gojs/release/go.js',
 CClientScript::POS_HEAD);
 
-    $id_instansi =Yii::app()->user->getOpd();
     $visi=Visi::model()->find('id_instansi=:id_instansi', array('id_instansi' => $id_instansi));
     $instansi=Opd::model()->find('id_instansi=:id_instansi', array('id_instansi' => $id_instansi));    
     $misi = Misi::model()->findAll(array("condition"=>"idinstansi='".@$id_instansi."'"));
@@ -357,7 +356,7 @@ function init(){
 </div>
 
 <div class="form-group">
-                <div class="col-sm-offset-0 col-sm-5">
+                <div class="col-sm-offset-0 col-sm-12">
                     <?php echo TbHtml::alert(TbHtml::ALERT_COLOR_DANGER,
                         '<p> Jika pohon kinerja yang ditampilkan tidak sesuai (tampil secara vertikal), User dapat mengunggah file pohon kinerja (bentuk pohon kinerja secara horizontal) dalam format file (.pdf / .jpg)</p>'); ?>
                 </div>
@@ -365,7 +364,10 @@ function init(){
 
 <!-- Container fluid Starts -->
 <div class="container-fluid">
+  <div class="spacer-xs">
 
+  <?php $this->renderPartial('_form_laporan_pohonkinerja', array('model' => $model)); ?>
+  </div>
     <!-- Spacer starts -->
     <div class="spacer-xs">
        

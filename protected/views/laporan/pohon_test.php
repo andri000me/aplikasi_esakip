@@ -17,8 +17,9 @@
 <div class="container-fluid">
     <div class="spacer-xs">
 
-        <?php $this->renderPartial('_form_laporan_cascading', array('model' => $model)); ?>
+        <?php $this->renderPartial('_form_laporan_pohonkinerja', array('model' => $model)); ?>
     </div>
+
     <div id="form-element">
     </div>
 </div>

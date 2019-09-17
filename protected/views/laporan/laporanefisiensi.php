@@ -2,7 +2,7 @@
 $id_instansi =Yii::app()->user->getOpd();
 $instansi=Opd::model()->find('id_instansi=:id_instansi', array('id_instansi' => $id_instansi));
 
-mysql_connect('localhost','root','');
+mysql_connect('localhost','JabaResakip','dbesakip533');
 mysql_select_db('db2016');
 ?>
 

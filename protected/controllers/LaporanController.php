@@ -33,6 +33,19 @@ class LaporanController extends Controller
             ));
     }
 
+    public function actionShowpohon(){
+        $opd = $_POST['Opd']['id_instansi'];
+        $this->layout = "backend";
+        $model = new Opd;
+        $data["title"]="Laporan Pohon Kinerja";
+        $data['opd'] = $allArs = Opd::model()->findAll();
+        $this->render('pohonkinerja_opd',array(
+            'model' => $model,
+            'title' => $data['title'],
+            'id_instansi' => $opd
+        ));
+    }
+
     public function actionIndexCascading()
 	{
         $this->layout = "backend";
@@ -120,7 +133,8 @@ class LaporanController extends Controller
 
     public function actionTest(){
         $data["title"]="Laporan Cascading";
-        $this->render('test',$data);
+        $data["id_instansi"] = $_POST['OPD'];
+        $this->render('cascading_all',$data);
     }
     
     public function actionCascading(){
@@ -129,10 +143,10 @@ class LaporanController extends Controller
         $uzer=Users::model()->find('usrxid=:usrxid', array('usrxid' => $id_user));
         $id_role = $uzer['id_role'];
         $model = new Opd;
-        if($id_role == 4 || $id_role == 0){
+        if($id_role == 0 || $id_role == 4){
             $data["title"]="Laporan Cascading ALL";
             $data['opd'] = $allArs = Opd::model()->findAll();
-            $this->render('castest',array(
+            $this->render('cascading_opd',array(
                 'model' => $model,
                 'title' => $data['title'],
             ));
@@ -143,11 +157,24 @@ class LaporanController extends Controller
     }
 
      public function actionPohonkinerja(){
-         $this->layout = "backend";
-           $data["title"]="Laporan Pohon Kinerja";
-      
-         $this->render('pohonkinerja',$data);
-
+        $this->layout = "backend";
+        $id_user =Yii::app()->user->getaidi();
+        $uzer=Users::model()->find('usrxid=:usrxid', array('usrxid' => $id_user));
+        $id_role = $uzer['id_role'];
+        if($id_role == 4 || $id_role == 0){
+            $opd = Yii::app()->user->getOpd();
+            $model = new Opd;
+            $data["title"]="Laporan Pohon Kinerja";
+            $data['opd'] = $allArs = Opd::model()->findAll();
+            $this->render('pohonkinerja_opd',array(
+                'model' => $model,
+                'title' => $data['title'],
+                'id_instansi' => $opd
+            ));
+        }else{
+            $data["title"]="Laporan Pohon Kinerja";
+            $this->render('pohonkinerja',$data);
+        }
     }
 
     public function actionLap7()
