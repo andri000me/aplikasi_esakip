@@ -10,10 +10,9 @@
                 <div class="row" style="height:30px;"></div>
                 <div class="row">
                     <div class="col-sm-12" style="font-family:Verdana;font-size:14px;">
-                        BIRO ORGANISASI<BR>SEKRETARIAT DAERAH PROVINSI JAWA BARAT<BR>
-                        Jl. Diponegoro No. 22<BR>Bandung - Jawa Barat<BR>Tlp. 022-4234259<BR>
-                        eMail: sakip@jabarprov.go.id<BR>
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.9121487828506!2d107.61348691458424!3d-6.901109395013442!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68e64c1eeaf9a3%3A0x6acacdb28793f89f!2sJl.+Diponegoro+No.22%2C+Citarum%2C+Bandung+Wetan%2C+Kota+Bandung%2C+Jawa+Barat+40115!5e0!3m2!1sen!2sid!4v1476890781353"
+                        Bagian Akuntabilitas dan Organisasi<BR>Sekretariat Daerah Kabupaten Sukabumi<BR>
+                        Jalan Siliwangi No. 10,<BR>Palabuhanratu - Jawa Barat<BR>Tlp. 0266-433611<BR>
+                        <iframe src="https://www.google.com/maps/place/Office+of+the+Secretariat+of+Kab+Sukabumi/@-6.9879413,106.5483137,16.97z/data=!4m8!1m2!2m1!1sSekretariat+Daerah+Kabupaten+Sukabumi!3m4!1s0x2e6827ecc6358889:0xa5e12d919db89daa!8m2!3d-6.9872745!4d106.5508427"
                                 width="300" height="180" frameborder="0" style="border:0" allowfullscreen></iframe>
                     </div>
                 </div>

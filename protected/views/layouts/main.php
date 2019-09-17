@@ -39,7 +39,7 @@
         <span class="icon-bar"></span>
       </button>
       <a class="navbar-brand" href="<?php echo Yii::app()->baseUrl; ?>">
-        <img src="<?php echo Yii::app()->baseUrl; ?>/static/img/logo_sakip.png">
+        <img src="<?php echo Yii::app()->baseUrl; ?>/static/img/logo_kab.png">
       </a>
       <p class="navbar-text hidden-xs hidden-md hidden-sm" style="max-width:250px;line-height: 120%;padding-top:5px">Laman Akuntabilitas Kinerja Instansi Pemerintah Daerah Kabupaten Sukabumi</p>
     </div>

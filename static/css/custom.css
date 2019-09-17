@@ -9,8 +9,8 @@
 }
 
 .navbar-default {
-    background-color: #375a7f;
-    border-color: #2d4a68;
+    background-color: #e67e22;
+    border-color: #f39c12;
     height: 60px !important;
 }
 
@@ -563,7 +563,7 @@
 }
 
 .navbar-collapse, .navbar-default .navbar-form {
-    background-color: #375a7f;
+    background-color: #e67e22;
 }
 
 .navbar-toggle {

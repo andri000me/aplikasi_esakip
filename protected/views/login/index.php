@@ -19,7 +19,7 @@
     <div id="box" class="animated bounceIn">
         <div id="top_header">
             <a href="<?php echo Yii::app()->baseUrl; ?>">
-                <img class="logo" src="<?= Yii::app()->baseUrl; ?>/static/img/logo_sakip.png" alt="logo">
+                <img class="logo" src="<?= Yii::app()->baseUrl; ?>/static/img/logo_kab.png" alt="logo">
             </a>
         </div>
         <div id="inputs">

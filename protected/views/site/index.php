@@ -48,23 +48,15 @@
         <div class="row">
             <div class="col-md-12 animated fadeInLeft">
                 <span>eSAKIP</span>
-                <p>Sistem Akuntabilitas Kinerja Instansi Pemerintah Pemerintah Daerah Provinsi Jawa Barat</p>
+                <p>Sistem Akuntabilitas Kinerja Instansi Pemerintah Pemerintah Daerah Kabupaten Sukabumi</p>
             </div>
         </div>
     </div>
 </div>
 
 <div class="container content-sm animated fadeInRight">
-    <div class="headline"><h2>Mewujudkan Pemerintahan Daerah Provinsi Jawa Barat</h2></div>
+    <div class="headline"><h2>Mewujudkan Pemerintahan Daerah Kabupaten Sukabumi</h2></div>
     <div class="row margin-bottom-30">
-        <div class="col-md-4">
-            <div class="service">
-                <i class="fa fa-compress service-icon"></i>
-                <div class="desc">
-                    <h4>Sederhana</h4>
-                </div>
-            </div>
-        </div>
         <div class="col-md-4">
             <div class="service">
                 <i class="fa  fa-plus-square-o  service-icon"></i>
@@ -89,31 +81,21 @@
                 </div>
             </div>
         </div>
-        <div class="col-md-4">
-            <div class="service">
-                <i class="fa  fa-check-circle-o  service-icon"></i>
-                <div class="desc">
-                    <h4>Profesional test</h4>
-                    <!--<p></p>-->
-                </div>
-            </div>
-        </div>
     </div>
 
     <div class="headline"><h2>Kontak Kami</h2></div>
 
     <div class="row margin-bottom-30">
         <div class="col-md-8">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.9121487828506!2d107.61348691458424!3d-6.901109395013442!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68e64c1eeaf9a3%3A0x6acacdb28793f89f!2sJl.+Diponegoro+No.22%2C+Citarum%2C+Bandung+Wetan%2C+Kota+Bandung%2C+Jawa+Barat+40115!5e0!3m2!1sen!2sid!4v1476890781353"
-                    width="100%" height="180" frameborder="0" style="border:0" allowfullscreen></iframe>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.206358474283!2d106.55193816534413!3d-6.98495534495399!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xa5e12d919db89daa!2sOffice%20of%20the%20Secretariat%20of%20Kab%20Sukabumi!5e0!3m2!1sen!2sid!4v1568707380362!5m2!1sen!2sid" width="100%" height="180" frameborder="0" style="border:0" allowfullscreen></iframe>
         </div>
         <div class="col-md-4">
-            BIRO ORGANISASI
-            <br>SEKRETARIAT DAERAH PROVINSI JAWA BARAT
-            <br>Jl. Diponegoro No. 22
-            <br>Bandung - Jawa Barat
-            <br><i class="fa fa-phone"></i> 022-4234259
-            <br><i class="fa fa-inbox"></i> <a href="mailto:sakip@jabarprov.go.id">sakip@jabarprov</a>
+            Bagian Akuntabilitas dan Organisasi<BR>
+            Sekretariat Daerah Kabupaten Sukabumi<BR>
+            Jalan Siliwangi No. 10,<BR>
+            Palabuhanratu - Jawa Barat<BR>
+            <i class="fa fa-phone"></i>Tlp. 0266-433611<BR>
+
         </div>
     </div>
 
