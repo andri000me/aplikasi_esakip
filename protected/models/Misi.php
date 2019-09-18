@@ -21,7 +21,7 @@ class Misi extends RActiveRecord
      */
     public function getDbConnection()
     {
-        return self::getPeriodeDbConnection();
+        return getPeriodeDbConnection();
     }
 
 	/**
