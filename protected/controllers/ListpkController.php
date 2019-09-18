@@ -8,13 +8,14 @@ class ListpkController extends Controller
 	 */
     public $layout='backend';
 
-    public function beforeAction()
+    public function beforeAction($action)
     {
         if (Yii::app()->user->isGuest )
             $this->redirect(Yii::app()->createUrl('login'));
 
         return true;
     }
+
 
 	/**
 	 * @return array action filters
