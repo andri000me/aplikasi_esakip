@@ -263,7 +263,7 @@
                             <span>Manajemen Pengguna</span>
                         </a>
                     </li>
-                    <?php if (Yii::app()->user->isAdmin()) { ?>
+                    <!-- <?php if (Yii::app()->user->isAdmin()) { ?>
                         <li>
                             <a href='<?php echo Yii::app()->baseUrl; ?>/dataopd' <?php echo $ctrlName === "dataopd" ? "class='select'" : "" ?>>
                                 <span>Data OPD</span>
@@ -284,7 +284,7 @@
                                 <span>Istilah-istilah</span>
                             </a>
                         </li>
-                    <?php } ?>
+                    <?php } ?> -->
                 </ul>
             </li>
 

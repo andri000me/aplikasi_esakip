@@ -12,7 +12,7 @@
 <?php if ($ispdf==0) { ?>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
         <meta name="Description" content="<?php echo CHtml::encode($this->pageTitle); ?>">
-        <meta name="Author" content="Under Maintenance abdiiwan1841@gmail.com">
+        <meta name="Author" content="">
         <meta http-equiv="X-UA-Compatible" content="IE=9;FF=3;OtherUA=4">
         <meta name="viewport" content="width=device-width,initial-scale=1.0">
         <link rel="stylesheet" href="<?php echo Yii::app()->baseUrl ?>/static/css/theme.css">

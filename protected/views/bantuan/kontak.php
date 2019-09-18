@@ -28,7 +28,7 @@
                             </div>
                             <div class="form-group">
                                 <label><i class="fa fa-inbox"></i></label>
-                                <span>abdiiwan1841@gmail.com</span>
+                                <span>-</span>
                             </div>
                         </div>
                     </div>

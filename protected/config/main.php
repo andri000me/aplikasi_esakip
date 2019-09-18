@@ -135,8 +135,8 @@ return array(
 	// application-level parameters that can be accessed
 	// using Yii::app()->params['paramName']
 	'params'=>array(
-		'adminEmail'=>'abdiiwan1841@gmail.com',
-        'kopikanan'=>'@2018 Sekretaris Daerah Kabupaten Sukabumi Bagian AKO',
+		'adminEmail'=>'kresno.19@gmail.com',
+        'kopikanan'=>'@2019 Sekretaris Daerah Kabupaten Sukabumi Bagian AKO',
         'namepanjang'=>'eSakip::Aplikasi Akuntabilitas Kinerja Instansi Pemerintah',
         'namependek'=>'eSakip',
         'nameepemakai'=>'Pemerintah Daerah Kabupaten Sukabumi',
