@@ -6,12 +6,12 @@
             Data Misi
         </h4>
     </div>
-    <div class="pull-right" id="mini-nav-right">
+    <!-- <div class="pull-right" id="mini-nav-right">
         <a href="<?php echo Yii::app()->baseUrl; ?>/misi/create" class="btn btn-info btn-xs" rel="tooltip"
            data-original-title="Tambah">
             <i class="fa fa-plus-circle"></i>
         </a>
-    </div>
+    </div> -->
 </div>
 <!-- Top Bar Ends -->
 
