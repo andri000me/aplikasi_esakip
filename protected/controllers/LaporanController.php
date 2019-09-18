@@ -103,7 +103,7 @@ class LaporanController extends Controller
         $data["title"]="Laporan Efisiensi Penggunaan Sumber Daya";
         $data["kriteria"]=false;
         $data["pilihan"]=3;
-        $this->render('laporanefisiensi',$data);
+        $this->render('index',$data);
     }
     public function actionLap4()
     {

@@ -26,7 +26,7 @@ mysql_select_db('db2016');
         <!-- Row Starts -->
         <h4 class="text-center">Laporan Analisa Efisiensi Penggunaan Sumber Daya Tahun <?php echo Yii::app()->user->getTahun(); ?></h4>
         <h4 class="text-center"><?php echo strtoupper($instansi["nama_instansi"]);?></h4>
-        <h4 class="text-center">PEMERINTAH DAERAH PROVINSI JAWA BARAT</h4>
+        <h4 class="text-center">Pemerintah Daerah Kabupaten Sukabumi</h4>
         <!-- Row Ends -->
     </div>
     <!-- Spacer ends -->
