@@ -40,16 +40,17 @@
                 ?>
             </div>
             </div>
-            <div class="row">
-            <div class="form-group">
-                <div class="col-md-offset-2 col-md-12">
-                <a href="<?php echo Yii::app()->baseUrl."/datapk/showpkdata/&i=".$idx; ?>" target="_blank" class="btn btn-info  btn-xs">Dok. PK</a>
-                <a href="<?php echo Yii::app()->baseUrl; ?>/datapk/showpk" class="btn btn-info btn-xs" rel="tooltip"
-                   data-original-title="PK Kepala OPD" target="_blank">
-                    <i class="fa fa-file-word-o"></i> Dok PK Kepala OPD
-                </a>
+            <!-- <div class="row">
+                <div class="form-group">
+                    <div class="col-md-offset-2 col-md-12">
+                        <a href="<?php echo Yii::app()->baseUrl."/datapk/showpkdata/&i=".$idx; ?>" target="_blank" class="btn btn-info  btn-xs">Dok. PK</a>
+                        <a href="<?php echo Yii::app()->baseUrl; ?>/datapk/showpk" class="btn btn-info btn-xs" rel="tooltip"
+                        data-original-title="PK Kepala OPD" target="_blank">
+                            <i class="fa fa-file-word-o"></i> Dok PK Kepala OPD
+                        </a>
+                    </div>
                 </div>
-            </div></div>
+            </div> -->
         </form>
 
         <br/>

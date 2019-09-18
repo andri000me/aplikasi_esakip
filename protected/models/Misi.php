@@ -24,10 +24,6 @@ class Misi extends RActiveRecord
         return self::getPeriodeDbConnection();
     }
 
-    public function primaryKey(){
-        return ('misid');
-    }
-
 	/**
 	 * @return string the associated database table name
 	 */
@@ -35,6 +31,10 @@ class Misi extends RActiveRecord
 	{
 		return 'tmisi';
 	}
+
+    public function primaryKey(){
+        return ('misid');
+    }
 
 
     /**
