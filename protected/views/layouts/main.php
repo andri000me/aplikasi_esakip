@@ -48,8 +48,8 @@
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav navbar-right">
         <!-- <li><a href="<?php echo Yii::app()->baseUrl; ?>/lkip">LKIP</a></li> -->
-        <li><a href="<?php echo Yii::app()->baseUrl; ?>/peraturan">Peraturan/UU</a></li>
-        <li><a href="<?php echo Yii::app()->baseUrl; ?>/istilah">Istilah Sakip</a></li>
+        <!-- <li><a href="<?php echo Yii::app()->baseUrl; ?>/peraturan">Peraturan/UU</a></li>
+        <li><a href="<?php echo Yii::app()->baseUrl; ?>/istilah">Istilah Sakip</a></li> -->
         <?php if (Yii::app()->user->isGuest) { ?>
             <li><a href="<?php echo Yii::app()->baseUrl; ?>/login" >SignIn</a></li>
         <?php } else { ?>
