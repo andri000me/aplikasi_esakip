@@ -17,7 +17,7 @@ class MActiveRecord extends CActiveRecord {
         {
             self::$dbMaster = Yii::createComponent(array(
                 'class' => 'CDbConnection',
-                'connectionString'=>"mysql:host=".Yii::app()->params['dbhost'].";dbname=es4k1p_db", //dynamic database name here
+                'connectionString'=>"mysql:host=".Yii::app()->params['dbhost'].";dbname=es4k1p_db".$db_name, //dynamic database name here
                 'enableProfiling' => true,
                 'enableParamLogging' => true,
                 'username'=>Yii::app()->params['dbuser'],
