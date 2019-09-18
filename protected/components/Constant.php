@@ -30,7 +30,7 @@ class Constant extends CController {
         4=>"Super Viewer",
     );
 
-    public static $listtahunLogin = array("2016"=>"2016", "2017"=>"2017");
+    public static $listtahunLogin = array("2017"=>"2017", "2018"=>"2018", "2019"=>"2019");
 
     public static $listeselon = array("I"=>"Eselon I", "II"=>"Eselon II","III"=>"Eselon III","IV"=>"Eselon IV");
     
