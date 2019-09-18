@@ -5,7 +5,7 @@
             <!-- Wrapper for slides -->
             <div class="carousel-inner">
                 <div class="item active">
-                    <img src="<?= Yii::app()->baseUrl; ?>/static/img/gdgsate1240x600.jpg" alt=""
+                    <img src="<?= Yii::app()->baseUrl; ?>/static/img/image-1.jpg" alt=""
                          >
                     <div class="carousel-caption hidden-xs">
                         <h3>Jawa Barat Maju dan Sejahtera untuk Semua</h3>
@@ -13,7 +13,7 @@
                 </div>
 
                 <div class="item">
-                    <img src="<?= Yii::app()->baseUrl; ?>/static/img/mesjidagungtasik1240x600.jpg" alt=""
+                    <img src="<?= Yii::app()->baseUrl; ?>/static/img/image-2.jpg" alt=""
                          >
                     <div class="carousel-caption hidden-xs">
                         <h3>Membangun masyarakat yang berkualitas dan berdaya saing</h3>
@@ -21,7 +21,7 @@
                 </div>
 
                 <div class="item">
-                    <img src="<?= Yii::app()->baseUrl; ?>/static/img/Pantai-Pangandaran1240x600.jpg" alt=""
+                    <img src="<?= Yii::app()->baseUrl; ?>/static/img/image-3.jpg" alt=""
                          >
                     <div class="carousel-caption hidden-xs">
                         <h3>Membangun pekonomian yang kokoh dan berkeadilan</h3>
