@@ -4,6 +4,8 @@
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><?php echo CHtml::encode($this->pageTitle); ?></title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="<?php echo Yii::app()->baseUrl; ?>/favicon.ico">
     <link href="<?php echo Yii::app()->baseUrl; ?>/static/css/login.css" rel="stylesheet" media="screen">
     <link href="<?php echo Yii::app()->baseUrl; ?>/static/css/animate.css" rel="stylesheet" media="screen">
     <link href="<?php echo Yii::app()->baseUrl; ?>/static/fonts/font-awesome.min.css" rel="stylesheet">

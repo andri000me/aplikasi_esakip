@@ -22,7 +22,6 @@ body {
 	background: -webkit-radial-gradient(center, ellipse cover,  #47759e 0%,#081F33 100%); /* Chrome10+,Safari5.1+ */
 	background: -o-radial-gradient(center, ellipse cover,  #47759e 0%,#081F33 100%); /* Opera 12+ */
 	background: -ms-radial-gradient(center, ellipse cover,  #47759e 0%,#081F33 100%); /* IE10+ */
-	background: radial-gradient(ellipse at center,  #f39c12 0%,#d35400 100%); /* W3C */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#47759e', endColorstr='#081F33',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 	background-repeat: no-repeat;
 	background-attachment: fixed;
@@ -106,7 +105,7 @@ input[type=submit] {
 	color: #fff;
 	font-size: 18px;
 	background-color: #fff;
-	background-color: #e67e22;
+	background-color: #2980b9;
 	border: 0;
 	transition: all .2s ease;
 	cursor: pointer;
@@ -114,7 +113,7 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-	background-color: #e67e22;
+	background-color: #2980b9;
 	color: #fff;
 }
 input[type=submit]:focus {

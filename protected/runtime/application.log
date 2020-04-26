@@ -4020,3 +4020,738 @@ Stack trace:
 REQUEST_URI=/bantuan/kontak
 HTTP_REFERER=https://esakip.sukabumikab.go.id/renstra
 ---
+2020/04/24 13:28:54 [error] [exception.CHttpException.404] CHttpException: Sistem tidak bisa menemukan action "js" seperti yang diminta. in C:\xampp\htdocs\aplikasi_esakip\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\aplikasi_esakip\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\htdocs\aplikasi_esakip\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\htdocs\aplikasi_esakip\framework\web\CWebApplication.php(141): CWebApplication->runController('home/js/jquery/...')
+#3 C:\xampp\htdocs\aplikasi_esakip\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\aplikasi_esakip\index.php(28): CApplication->run()
+#5 {main}
+REQUEST_URI=/aplikasi_esakip/home/js/jquery/jquery-2.2.4.min.js
+HTTP_REFERER=http://localhost/aplikasi_esakip/
+---
+2020/04/24 13:28:54 [error] [exception.CHttpException.404] CHttpException: Sistem tidak bisa menemukan action "css" seperti yang diminta. in C:\xampp\htdocs\aplikasi_esakip\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\aplikasi_esakip\framework\web\CController.php(270): CController->missingAction('css')
+#1 C:\xampp\htdocs\aplikasi_esakip\framework\web\CWebApplication.php(282): CController->run('css')
+#2 C:\xampp\htdocs\aplikasi_esakip\framework\web\CWebApplication.php(141): CWebApplication->runController('home/css/respon...')
+#3 C:\xampp\htdocs\aplikasi_esakip\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\aplikasi_esakip\index.php(28): CApplication->run()
+#5 {main}
+REQUEST_URI=/aplikasi_esakip/home/css/responsive/responsive.css
+HTTP_REFERER=http://localhost/aplikasi_esakip/
+---
+2020/04/24 13:28:54 [error] [exception.CHttpException.404] CHttpException: Tidak bisa mengurai request "style.css" in C:\xampp\htdocs\aplikasi_esakip\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\aplikasi_esakip\framework\web\CWebApplication.php(141): CWebApplication->runController('style.css')
+#1 C:\xampp\htdocs\aplikasi_esakip\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\aplikasi_esakip\index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/aplikasi_esakip/style.css
+HTTP_REFERER=http://localhost/aplikasi_esakip/
+---
+2020/04/24 13:28:54 [error] [exception.CHttpException.404] CHttpException: Sistem tidak bisa menemukan action "js" seperti yang diminta. in C:\xampp\htdocs\aplikasi_esakip\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\aplikasi_esakip\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\htdocs\aplikasi_esakip\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\htdocs\aplikasi_esakip\framework\web\CWebApplication.php(141): CWebApplication->runController('home/js/bootstr...')
+#3 C:\xampp\htdocs\aplikasi_esakip\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\aplikasi_esakip\index.php(28): CApplication->run()
+#5 {main}
+REQUEST_URI=/aplikasi_esakip/home/js/bootstrap/popper.min.js
+HTTP_REFERER=http://localhost/aplikasi_esakip/
+---
+2020/04/24 13:28:54 [error] [exception.CHttpException.404] CHttpException: Sistem tidak bisa menemukan action "js" seperti yang diminta. in C:\xampp\htdocs\aplikasi_esakip\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\aplikasi_esakip\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\htdocs\aplikasi_esakip\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\htdocs\aplikasi_esakip\framework\web\CWebApplication.php(141): CWebApplication->runController('home/js/bootstr...')
+#3 C:\xampp\htdocs\aplikasi_esakip\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\aplikasi_esakip\index.php(28): CApplication->run()
+#5 {main}
+REQUEST_URI=/aplikasi_esakip/home/js/bootstrap/bootstrap.min.js
+HTTP_REFERER=http://localhost/aplikasi_esakip/
+---
+2020/04/24 13:28:54 [error] [exception.CHttpException.404] CHttpException: Sistem tidak bisa menemukan action "js" seperti yang diminta. in C:\xampp\htdocs\aplikasi_esakip\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\aplikasi_esakip\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\htdocs\aplikasi_esakip\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\htdocs\aplikasi_esakip\framework\web\CWebApplication.php(141): CWebApplication->runController('home/js/others/...')
+#3 C:\xampp\htdocs\aplikasi_esakip\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\aplikasi_esakip\index.php(28): CApplication->run()
+#5 {main}
+REQUEST_URI=/aplikasi_esakip/home/js/others/plugins.js
+HTTP_REFERER=http://localhost/aplikasi_esakip/
+---
+2020/04/24 13:28:55 [error] [exception.CHttpException.404] CHttpException: Tidak bisa mengurai request "img/clients-img/1.jpg" in C:\xampp\htdocs\aplikasi_esakip\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\aplikasi_esakip\framework\web\CWebApplication.php(141): CWebApplication->runController('img/clients-img...')
+#1 C:\xampp\htdocs\aplikasi_esakip\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\aplikasi_esakip\index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/aplikasi_esakip/img/clients-img/1.jpg
+HTTP_REFERER=http://localhost/aplikasi_esakip/
+---
+2020/04/24 13:28:55 [error] [exception.CHttpException.404] CHttpException: Sistem tidak bisa menemukan action "js" seperti yang diminta. in C:\xampp\htdocs\aplikasi_esakip\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\aplikasi_esakip\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\htdocs\aplikasi_esakip\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\htdocs\aplikasi_esakip\framework\web\CWebApplication.php(141): CWebApplication->runController('home/js/active....')
+#3 C:\xampp\htdocs\aplikasi_esakip\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\aplikasi_esakip\index.php(28): CApplication->run()
+#5 {main}
+REQUEST_URI=/aplikasi_esakip/home/js/active.js
+HTTP_REFERER=http://localhost/aplikasi_esakip/
+---
+2020/04/24 13:28:55 [error] [exception.CHttpException.404] CHttpException: Tidak bisa mengurai request "img/bg-img/hero-1.jpg" in C:\xampp\htdocs\aplikasi_esakip\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\aplikasi_esakip\framework\web\CWebApplication.php(141): CWebApplication->runController('img/bg-img/hero...')
+#1 C:\xampp\htdocs\aplikasi_esakip\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\aplikasi_esakip\index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/aplikasi_esakip/img/bg-img/hero-1.jpg
+HTTP_REFERER=http://localhost/aplikasi_esakip/
+---
+2020/04/24 13:28:55 [error] [exception.CHttpException.404] CHttpException: Sistem tidak bisa menemukan action "js" seperti yang diminta. in C:\xampp\htdocs\aplikasi_esakip\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\aplikasi_esakip\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\htdocs\aplikasi_esakip\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\htdocs\aplikasi_esakip\framework\web\CWebApplication.php(141): CWebApplication->runController('home/js/jquery/...')
+#3 C:\xampp\htdocs\aplikasi_esakip\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\aplikasi_esakip\index.php(28): CApplication->run()
+#5 {main}
+REQUEST_URI=/aplikasi_esakip/home/js/jquery/jquery-2.2.4.min.js
+HTTP_REFERER=http://localhost/aplikasi_esakip/
+---
+2020/04/24 13:28:55 [error] [exception.CHttpException.404] CHttpException: Sistem tidak bisa menemukan action "js" seperti yang diminta. in C:\xampp\htdocs\aplikasi_esakip\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\aplikasi_esakip\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\htdocs\aplikasi_esakip\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\htdocs\aplikasi_esakip\framework\web\CWebApplication.php(141): CWebApplication->runController('home/js/bootstr...')
+#3 C:\xampp\htdocs\aplikasi_esakip\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\aplikasi_esakip\index.php(28): CApplication->run()
+#5 {main}
+REQUEST_URI=/aplikasi_esakip/home/js/bootstrap/popper.min.js
+HTTP_REFERER=http://localhost/aplikasi_esakip/
+---
+2020/04/24 13:28:55 [error] [exception.CHttpException.404] CHttpException: Sistem tidak bisa menemukan action "js" seperti yang diminta. in C:\xampp\htdocs\aplikasi_esakip\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\aplikasi_esakip\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\htdocs\aplikasi_esakip\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\htdocs\aplikasi_esakip\framework\web\CWebApplication.php(141): CWebApplication->runController('home/js/bootstr...')
+#3 C:\xampp\htdocs\aplikasi_esakip\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\aplikasi_esakip\index.php(28): CApplication->run()
+#5 {main}
+REQUEST_URI=/aplikasi_esakip/home/js/bootstrap/bootstrap.min.js
+HTTP_REFERER=http://localhost/aplikasi_esakip/
+---
+2020/04/24 13:28:55 [error] [exception.CHttpException.404] CHttpException: Sistem tidak bisa menemukan action "js" seperti yang diminta. in C:\xampp\htdocs\aplikasi_esakip\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\aplikasi_esakip\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\htdocs\aplikasi_esakip\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\htdocs\aplikasi_esakip\framework\web\CWebApplication.php(141): CWebApplication->runController('home/js/others/...')
+#3 C:\xampp\htdocs\aplikasi_esakip\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\aplikasi_esakip\index.php(28): CApplication->run()
+#5 {main}
+REQUEST_URI=/aplikasi_esakip/home/js/others/plugins.js
+HTTP_REFERER=http://localhost/aplikasi_esakip/
+---
+2020/04/24 13:28:55 [error] [exception.CHttpException.404] CHttpException: Sistem tidak bisa menemukan action "js" seperti yang diminta. in C:\xampp\htdocs\aplikasi_esakip\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\aplikasi_esakip\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\htdocs\aplikasi_esakip\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\htdocs\aplikasi_esakip\framework\web\CWebApplication.php(141): CWebApplication->runController('home/js/active....')
+#3 C:\xampp\htdocs\aplikasi_esakip\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\aplikasi_esakip\index.php(28): CApplication->run()
+#5 {main}
+REQUEST_URI=/aplikasi_esakip/home/js/active.js
+HTTP_REFERER=http://localhost/aplikasi_esakip/
+---
+2020/04/24 13:28:55 [error] [exception.CHttpException.404] CHttpException: Sistem tidak bisa menemukan action "img" seperti yang diminta. in C:\xampp\htdocs\aplikasi_esakip\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\aplikasi_esakip\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\xampp\htdocs\aplikasi_esakip\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\xampp\htdocs\aplikasi_esakip\framework\web\CWebApplication.php(141): CWebApplication->runController('home/img/core-i...')
+#3 C:\xampp\htdocs\aplikasi_esakip\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\aplikasi_esakip\index.php(28): CApplication->run()
+#5 {main}
+REQUEST_URI=/aplikasi_esakip/home/img/core-img/favicon.ico
+---
+2020/04/24 13:29:26 [error] [exception.CHttpException.404] CHttpException: Sistem tidak bisa menemukan action "style.css" seperti yang diminta. in C:\xampp\htdocs\aplikasi_esakip\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\aplikasi_esakip\framework\web\CController.php(270): CController->missingAction('style.css')
+#1 C:\xampp\htdocs\aplikasi_esakip\framework\web\CWebApplication.php(282): CController->run('style.css')
+#2 C:\xampp\htdocs\aplikasi_esakip\framework\web\CWebApplication.php(141): CWebApplication->runController('home/style.css')
+#3 C:\xampp\htdocs\aplikasi_esakip\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\aplikasi_esakip\index.php(28): CApplication->run()
+#5 {main}
+REQUEST_URI=/aplikasi_esakip/home/style.css
+HTTP_REFERER=http://localhost/aplikasi_esakip/
+---
+2020/04/24 13:29:26 [error] [exception.CHttpException.404] CHttpException: Sistem tidak bisa menemukan action "js" seperti yang diminta. in C:\xampp\htdocs\aplikasi_esakip\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\aplikasi_esakip\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\htdocs\aplikasi_esakip\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\htdocs\aplikasi_esakip\framework\web\CWebApplication.php(141): CWebApplication->runController('home/js/jquery/...')
+#3 C:\xampp\htdocs\aplikasi_esakip\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\aplikasi_esakip\index.php(28): CApplication->run()
+#5 {main}
+REQUEST_URI=/aplikasi_esakip/home/js/jquery/jquery-2.2.4.min.js
+HTTP_REFERER=http://localhost/aplikasi_esakip/
+---
+2020/04/24 13:29:26 [error] [exception.CHttpException.404] CHttpException: Sistem tidak bisa menemukan action "css" seperti yang diminta. in C:\xampp\htdocs\aplikasi_esakip\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\aplikasi_esakip\framework\web\CController.php(270): CController->missingAction('css')
+#1 C:\xampp\htdocs\aplikasi_esakip\framework\web\CWebApplication.php(282): CController->run('css')
+#2 C:\xampp\htdocs\aplikasi_esakip\framework\web\CWebApplication.php(141): CWebApplication->runController('home/css/respon...')
+#3 C:\xampp\htdocs\aplikasi_esakip\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\aplikasi_esakip\index.php(28): CApplication->run()
+#5 {main}
+REQUEST_URI=/aplikasi_esakip/home/css/responsive/responsive.css
+HTTP_REFERER=http://localhost/aplikasi_esakip/
+---
+2020/04/24 13:29:26 [error] [exception.CHttpException.404] CHttpException: Sistem tidak bisa menemukan action "js" seperti yang diminta. in C:\xampp\htdocs\aplikasi_esakip\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\aplikasi_esakip\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\htdocs\aplikasi_esakip\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\htdocs\aplikasi_esakip\framework\web\CWebApplication.php(141): CWebApplication->runController('home/js/bootstr...')
+#3 C:\xampp\htdocs\aplikasi_esakip\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\aplikasi_esakip\index.php(28): CApplication->run()
+#5 {main}
+REQUEST_URI=/aplikasi_esakip/home/js/bootstrap/popper.min.js
+HTTP_REFERER=http://localhost/aplikasi_esakip/
+---
+2020/04/24 13:29:26 [error] [exception.CHttpException.404] CHttpException: Sistem tidak bisa menemukan action "js" seperti yang diminta. in C:\xampp\htdocs\aplikasi_esakip\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\aplikasi_esakip\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\htdocs\aplikasi_esakip\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\htdocs\aplikasi_esakip\framework\web\CWebApplication.php(141): CWebApplication->runController('home/js/others/...')
+#3 C:\xampp\htdocs\aplikasi_esakip\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\aplikasi_esakip\index.php(28): CApplication->run()
+#5 {main}
+REQUEST_URI=/aplikasi_esakip/home/js/others/plugins.js
+HTTP_REFERER=http://localhost/aplikasi_esakip/
+---
+2020/04/24 13:29:26 [error] [exception.CHttpException.404] CHttpException: Sistem tidak bisa menemukan action "js" seperti yang diminta. in C:\xampp\htdocs\aplikasi_esakip\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\aplikasi_esakip\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\htdocs\aplikasi_esakip\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\htdocs\aplikasi_esakip\framework\web\CWebApplication.php(141): CWebApplication->runController('home/js/bootstr...')
+#3 C:\xampp\htdocs\aplikasi_esakip\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\aplikasi_esakip\index.php(28): CApplication->run()
+#5 {main}
+REQUEST_URI=/aplikasi_esakip/home/js/bootstrap/bootstrap.min.js
+HTTP_REFERER=http://localhost/aplikasi_esakip/
+---
+2020/04/24 13:29:26 [error] [exception.CHttpException.404] CHttpException: Tidak bisa mengurai request "img/clients-img/1.jpg" in C:\xampp\htdocs\aplikasi_esakip\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\aplikasi_esakip\framework\web\CWebApplication.php(141): CWebApplication->runController('img/clients-img...')
+#1 C:\xampp\htdocs\aplikasi_esakip\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\aplikasi_esakip\index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/aplikasi_esakip/img/clients-img/1.jpg
+HTTP_REFERER=http://localhost/aplikasi_esakip/
+---
+2020/04/24 13:29:26 [error] [exception.CHttpException.404] CHttpException: Sistem tidak bisa menemukan action "js" seperti yang diminta. in C:\xampp\htdocs\aplikasi_esakip\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\aplikasi_esakip\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\htdocs\aplikasi_esakip\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\htdocs\aplikasi_esakip\framework\web\CWebApplication.php(141): CWebApplication->runController('home/js/active....')
+#3 C:\xampp\htdocs\aplikasi_esakip\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\aplikasi_esakip\index.php(28): CApplication->run()
+#5 {main}
+REQUEST_URI=/aplikasi_esakip/home/js/active.js
+HTTP_REFERER=http://localhost/aplikasi_esakip/
+---
+2020/04/24 13:29:26 [error] [exception.CHttpException.404] CHttpException: Tidak bisa mengurai request "img/bg-img/hero-1.jpg" in C:\xampp\htdocs\aplikasi_esakip\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\aplikasi_esakip\framework\web\CWebApplication.php(141): CWebApplication->runController('img/bg-img/hero...')
+#1 C:\xampp\htdocs\aplikasi_esakip\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\aplikasi_esakip\index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/aplikasi_esakip/img/bg-img/hero-1.jpg
+HTTP_REFERER=http://localhost/aplikasi_esakip/
+---
+2020/04/24 13:29:26 [error] [exception.CHttpException.404] CHttpException: Sistem tidak bisa menemukan action "js" seperti yang diminta. in C:\xampp\htdocs\aplikasi_esakip\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\aplikasi_esakip\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\htdocs\aplikasi_esakip\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\htdocs\aplikasi_esakip\framework\web\CWebApplication.php(141): CWebApplication->runController('home/js/jquery/...')
+#3 C:\xampp\htdocs\aplikasi_esakip\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\aplikasi_esakip\index.php(28): CApplication->run()
+#5 {main}
+REQUEST_URI=/aplikasi_esakip/home/js/jquery/jquery-2.2.4.min.js
+HTTP_REFERER=http://localhost/aplikasi_esakip/
+---
+2020/04/24 13:29:26 [error] [exception.CHttpException.404] CHttpException: Sistem tidak bisa menemukan action "js" seperti yang diminta. in C:\xampp\htdocs\aplikasi_esakip\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\aplikasi_esakip\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\htdocs\aplikasi_esakip\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\htdocs\aplikasi_esakip\framework\web\CWebApplication.php(141): CWebApplication->runController('home/js/bootstr...')
+#3 C:\xampp\htdocs\aplikasi_esakip\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\aplikasi_esakip\index.php(28): CApplication->run()
+#5 {main}
+REQUEST_URI=/aplikasi_esakip/home/js/bootstrap/popper.min.js
+HTTP_REFERER=http://localhost/aplikasi_esakip/
+---
+2020/04/24 13:29:26 [error] [exception.CHttpException.404] CHttpException: Sistem tidak bisa menemukan action "js" seperti yang diminta. in C:\xampp\htdocs\aplikasi_esakip\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\aplikasi_esakip\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\htdocs\aplikasi_esakip\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\htdocs\aplikasi_esakip\framework\web\CWebApplication.php(141): CWebApplication->runController('home/js/bootstr...')
+#3 C:\xampp\htdocs\aplikasi_esakip\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\aplikasi_esakip\index.php(28): CApplication->run()
+#5 {main}
+REQUEST_URI=/aplikasi_esakip/home/js/bootstrap/bootstrap.min.js
+HTTP_REFERER=http://localhost/aplikasi_esakip/
+---
+2020/04/24 13:29:26 [error] [exception.CHttpException.404] CHttpException: Sistem tidak bisa menemukan action "js" seperti yang diminta. in C:\xampp\htdocs\aplikasi_esakip\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\aplikasi_esakip\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\htdocs\aplikasi_esakip\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\htdocs\aplikasi_esakip\framework\web\CWebApplication.php(141): CWebApplication->runController('home/js/others/...')
+#3 C:\xampp\htdocs\aplikasi_esakip\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\aplikasi_esakip\index.php(28): CApplication->run()
+#5 {main}
+REQUEST_URI=/aplikasi_esakip/home/js/others/plugins.js
+HTTP_REFERER=http://localhost/aplikasi_esakip/
+---
+2020/04/24 13:29:26 [error] [exception.CHttpException.404] CHttpException: Sistem tidak bisa menemukan action "js" seperti yang diminta. in C:\xampp\htdocs\aplikasi_esakip\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\aplikasi_esakip\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\htdocs\aplikasi_esakip\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\htdocs\aplikasi_esakip\framework\web\CWebApplication.php(141): CWebApplication->runController('home/js/active....')
+#3 C:\xampp\htdocs\aplikasi_esakip\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\aplikasi_esakip\index.php(28): CApplication->run()
+#5 {main}
+REQUEST_URI=/aplikasi_esakip/home/js/active.js
+HTTP_REFERER=http://localhost/aplikasi_esakip/
+---
+2020/04/24 13:29:31 [error] [exception.CHttpException.404] CHttpException: Sistem tidak bisa menemukan action "style.css" seperti yang diminta. in C:\xampp\htdocs\aplikasi_esakip\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\aplikasi_esakip\framework\web\CController.php(270): CController->missingAction('style.css')
+#1 C:\xampp\htdocs\aplikasi_esakip\framework\web\CWebApplication.php(282): CController->run('style.css')
+#2 C:\xampp\htdocs\aplikasi_esakip\framework\web\CWebApplication.php(141): CWebApplication->runController('home/style.css')
+#3 C:\xampp\htdocs\aplikasi_esakip\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\aplikasi_esakip\index.php(28): CApplication->run()
+#5 {main}
+REQUEST_URI=/aplikasi_esakip/home/style.css
+HTTP_REFERER=http://localhost/aplikasi_esakip/
+---
+2020/04/24 13:29:31 [error] [exception.CHttpException.404] CHttpException: Sistem tidak bisa menemukan action "css" seperti yang diminta. in C:\xampp\htdocs\aplikasi_esakip\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\aplikasi_esakip\framework\web\CController.php(270): CController->missingAction('css')
+#1 C:\xampp\htdocs\aplikasi_esakip\framework\web\CWebApplication.php(282): CController->run('css')
+#2 C:\xampp\htdocs\aplikasi_esakip\framework\web\CWebApplication.php(141): CWebApplication->runController('home/css/respon...')
+#3 C:\xampp\htdocs\aplikasi_esakip\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\aplikasi_esakip\index.php(28): CApplication->run()
+#5 {main}
+REQUEST_URI=/aplikasi_esakip/home/css/responsive/responsive.css
+HTTP_REFERER=http://localhost/aplikasi_esakip/
+---
+2020/04/24 13:29:31 [error] [exception.CHttpException.404] CHttpException: Sistem tidak bisa menemukan action "js" seperti yang diminta. in C:\xampp\htdocs\aplikasi_esakip\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\aplikasi_esakip\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\htdocs\aplikasi_esakip\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\htdocs\aplikasi_esakip\framework\web\CWebApplication.php(141): CWebApplication->runController('home/js/bootstr...')
+#3 C:\xampp\htdocs\aplikasi_esakip\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\aplikasi_esakip\index.php(28): CApplication->run()
+#5 {main}
+REQUEST_URI=/aplikasi_esakip/home/js/bootstrap/popper.min.js
+HTTP_REFERER=http://localhost/aplikasi_esakip/
+---
+2020/04/24 13:29:31 [error] [exception.CHttpException.404] CHttpException: Sistem tidak bisa menemukan action "js" seperti yang diminta. in C:\xampp\htdocs\aplikasi_esakip\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\aplikasi_esakip\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\htdocs\aplikasi_esakip\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\htdocs\aplikasi_esakip\framework\web\CWebApplication.php(141): CWebApplication->runController('home/js/bootstr...')
+#3 C:\xampp\htdocs\aplikasi_esakip\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\aplikasi_esakip\index.php(28): CApplication->run()
+#5 {main}
+REQUEST_URI=/aplikasi_esakip/home/js/bootstrap/bootstrap.min.js
+HTTP_REFERER=http://localhost/aplikasi_esakip/
+---
+2020/04/24 13:29:31 [error] [exception.CHttpException.404] CHttpException: Sistem tidak bisa menemukan action "js" seperti yang diminta. in C:\xampp\htdocs\aplikasi_esakip\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\aplikasi_esakip\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\htdocs\aplikasi_esakip\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\htdocs\aplikasi_esakip\framework\web\CWebApplication.php(141): CWebApplication->runController('home/js/jquery/...')
+#3 C:\xampp\htdocs\aplikasi_esakip\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\aplikasi_esakip\index.php(28): CApplication->run()
+#5 {main}
+REQUEST_URI=/aplikasi_esakip/home/js/jquery/jquery-2.2.4.min.js
+HTTP_REFERER=http://localhost/aplikasi_esakip/
+---
+2020/04/24 13:29:31 [error] [exception.CHttpException.404] CHttpException: Sistem tidak bisa menemukan action "js" seperti yang diminta. in C:\xampp\htdocs\aplikasi_esakip\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\aplikasi_esakip\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\htdocs\aplikasi_esakip\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\htdocs\aplikasi_esakip\framework\web\CWebApplication.php(141): CWebApplication->runController('home/js/others/...')
+#3 C:\xampp\htdocs\aplikasi_esakip\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\aplikasi_esakip\index.php(28): CApplication->run()
+#5 {main}
+REQUEST_URI=/aplikasi_esakip/home/js/others/plugins.js
+HTTP_REFERER=http://localhost/aplikasi_esakip/
+---
+2020/04/24 13:29:31 [error] [exception.CHttpException.404] CHttpException: Tidak bisa mengurai request "img/clients-img/1.jpg" in C:\xampp\htdocs\aplikasi_esakip\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\aplikasi_esakip\framework\web\CWebApplication.php(141): CWebApplication->runController('img/clients-img...')
+#1 C:\xampp\htdocs\aplikasi_esakip\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\aplikasi_esakip\index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/aplikasi_esakip/img/clients-img/1.jpg
+HTTP_REFERER=http://localhost/aplikasi_esakip/
+---
+2020/04/24 13:29:31 [error] [exception.CHttpException.404] CHttpException: Sistem tidak bisa menemukan action "js" seperti yang diminta. in C:\xampp\htdocs\aplikasi_esakip\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\aplikasi_esakip\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\htdocs\aplikasi_esakip\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\htdocs\aplikasi_esakip\framework\web\CWebApplication.php(141): CWebApplication->runController('home/js/active....')
+#3 C:\xampp\htdocs\aplikasi_esakip\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\aplikasi_esakip\index.php(28): CApplication->run()
+#5 {main}
+REQUEST_URI=/aplikasi_esakip/home/js/active.js
+HTTP_REFERER=http://localhost/aplikasi_esakip/
+---
+2020/04/24 13:29:31 [error] [exception.CHttpException.404] CHttpException: Tidak bisa mengurai request "img/bg-img/hero-1.jpg" in C:\xampp\htdocs\aplikasi_esakip\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\aplikasi_esakip\framework\web\CWebApplication.php(141): CWebApplication->runController('img/bg-img/hero...')
+#1 C:\xampp\htdocs\aplikasi_esakip\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\aplikasi_esakip\index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/aplikasi_esakip/img/bg-img/hero-1.jpg
+HTTP_REFERER=http://localhost/aplikasi_esakip/
+---
+2020/04/24 13:29:31 [error] [exception.CHttpException.404] CHttpException: Sistem tidak bisa menemukan action "js" seperti yang diminta. in C:\xampp\htdocs\aplikasi_esakip\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\aplikasi_esakip\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\htdocs\aplikasi_esakip\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\htdocs\aplikasi_esakip\framework\web\CWebApplication.php(141): CWebApplication->runController('home/js/jquery/...')
+#3 C:\xampp\htdocs\aplikasi_esakip\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\aplikasi_esakip\index.php(28): CApplication->run()
+#5 {main}
+REQUEST_URI=/aplikasi_esakip/home/js/jquery/jquery-2.2.4.min.js
+HTTP_REFERER=http://localhost/aplikasi_esakip/
+---
+2020/04/24 13:29:31 [error] [exception.CHttpException.404] CHttpException: Sistem tidak bisa menemukan action "js" seperti yang diminta. in C:\xampp\htdocs\aplikasi_esakip\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\aplikasi_esakip\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\htdocs\aplikasi_esakip\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\htdocs\aplikasi_esakip\framework\web\CWebApplication.php(141): CWebApplication->runController('home/js/bootstr...')
+#3 C:\xampp\htdocs\aplikasi_esakip\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\aplikasi_esakip\index.php(28): CApplication->run()
+#5 {main}
+REQUEST_URI=/aplikasi_esakip/home/js/bootstrap/popper.min.js
+HTTP_REFERER=http://localhost/aplikasi_esakip/
+---
+2020/04/24 13:29:31 [error] [exception.CHttpException.404] CHttpException: Sistem tidak bisa menemukan action "js" seperti yang diminta. in C:\xampp\htdocs\aplikasi_esakip\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\aplikasi_esakip\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\htdocs\aplikasi_esakip\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\htdocs\aplikasi_esakip\framework\web\CWebApplication.php(141): CWebApplication->runController('home/js/bootstr...')
+#3 C:\xampp\htdocs\aplikasi_esakip\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\aplikasi_esakip\index.php(28): CApplication->run()
+#5 {main}
+REQUEST_URI=/aplikasi_esakip/home/js/bootstrap/bootstrap.min.js
+HTTP_REFERER=http://localhost/aplikasi_esakip/
+---
+2020/04/24 13:29:31 [error] [exception.CHttpException.404] CHttpException: Sistem tidak bisa menemukan action "js" seperti yang diminta. in C:\xampp\htdocs\aplikasi_esakip\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\aplikasi_esakip\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\htdocs\aplikasi_esakip\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\htdocs\aplikasi_esakip\framework\web\CWebApplication.php(141): CWebApplication->runController('home/js/others/...')
+#3 C:\xampp\htdocs\aplikasi_esakip\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\aplikasi_esakip\index.php(28): CApplication->run()
+#5 {main}
+REQUEST_URI=/aplikasi_esakip/home/js/others/plugins.js
+HTTP_REFERER=http://localhost/aplikasi_esakip/
+---
+2020/04/24 13:29:31 [error] [exception.CHttpException.404] CHttpException: Sistem tidak bisa menemukan action "js" seperti yang diminta. in C:\xampp\htdocs\aplikasi_esakip\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\aplikasi_esakip\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\htdocs\aplikasi_esakip\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\htdocs\aplikasi_esakip\framework\web\CWebApplication.php(141): CWebApplication->runController('home/js/active....')
+#3 C:\xampp\htdocs\aplikasi_esakip\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\aplikasi_esakip\index.php(28): CApplication->run()
+#5 {main}
+REQUEST_URI=/aplikasi_esakip/home/js/active.js
+HTTP_REFERER=http://localhost/aplikasi_esakip/
+---
+2020/04/24 13:29:31 [error] [exception.CHttpException.404] CHttpException: Sistem tidak bisa menemukan action "img" seperti yang diminta. in C:\xampp\htdocs\aplikasi_esakip\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\aplikasi_esakip\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\xampp\htdocs\aplikasi_esakip\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\xampp\htdocs\aplikasi_esakip\framework\web\CWebApplication.php(141): CWebApplication->runController('home/img/core-i...')
+#3 C:\xampp\htdocs\aplikasi_esakip\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\aplikasi_esakip\index.php(28): CApplication->run()
+#5 {main}
+REQUEST_URI=/aplikasi_esakip/home/img/core-img/favicon.ico
+---
+2020/04/24 13:29:48 [error] [exception.CHttpException.404] CHttpException: Sistem tidak bisa menemukan action "js" seperti yang diminta. in C:\xampp\htdocs\aplikasi_esakip\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\aplikasi_esakip\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\htdocs\aplikasi_esakip\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\htdocs\aplikasi_esakip\framework\web\CWebApplication.php(141): CWebApplication->runController('home/js/jquery/...')
+#3 C:\xampp\htdocs\aplikasi_esakip\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\aplikasi_esakip\index.php(28): CApplication->run()
+#5 {main}
+REQUEST_URI=/aplikasi_esakip/home/js/jquery/jquery-2.2.4.min.js
+---
+2020/04/24 13:31:28 [error] [exception.CHttpException.404] CHttpException: Tidak bisa mengurai request "img/clients-img/1.jpg" in C:\xampp\htdocs\aplikasi_esakip\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\aplikasi_esakip\framework\web\CWebApplication.php(141): CWebApplication->runController('img/clients-img...')
+#1 C:\xampp\htdocs\aplikasi_esakip\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\aplikasi_esakip\index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/aplikasi_esakip/img/clients-img/1.jpg
+HTTP_REFERER=http://localhost/aplikasi_esakip/
+---
+2020/04/24 13:31:28 [error] [exception.CHttpException.404] CHttpException: Tidak bisa mengurai request "img/bg-img/hero-1.jpg" in C:\xampp\htdocs\aplikasi_esakip\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\aplikasi_esakip\framework\web\CWebApplication.php(141): CWebApplication->runController('img/bg-img/hero...')
+#1 C:\xampp\htdocs\aplikasi_esakip\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\aplikasi_esakip\index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/aplikasi_esakip/img/bg-img/hero-1.jpg
+HTTP_REFERER=http://localhost/aplikasi_esakip/
+---
+2020/04/24 13:31:29 [error] [exception.CHttpException.404] CHttpException: Tidak bisa mengurai request "img/clients-img/1.jpg" in C:\xampp\htdocs\aplikasi_esakip\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\aplikasi_esakip\framework\web\CWebApplication.php(141): CWebApplication->runController('img/clients-img...')
+#1 C:\xampp\htdocs\aplikasi_esakip\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\aplikasi_esakip\index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/aplikasi_esakip/img/clients-img/1.jpg
+HTTP_REFERER=http://localhost/aplikasi_esakip/
+---
+2020/04/24 13:31:30 [error] [exception.CHttpException.404] CHttpException: Tidak bisa mengurai request "static/home//css/bootstrap/bootstrap.min.css.map" in C:\xampp\htdocs\aplikasi_esakip\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\aplikasi_esakip\framework\web\CWebApplication.php(141): CWebApplication->runController('static/home//cs...')
+#1 C:\xampp\htdocs\aplikasi_esakip\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\aplikasi_esakip\index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/aplikasi_esakip/static/home//css/bootstrap/bootstrap.min.css.map
+---
+2020/04/24 13:31:48 [error] [exception.CHttpException.404] CHttpException: Tidak bisa mengurai request "img/clients-img/1.jpg" in C:\xampp\htdocs\aplikasi_esakip\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\aplikasi_esakip\framework\web\CWebApplication.php(141): CWebApplication->runController('img/clients-img...')
+#1 C:\xampp\htdocs\aplikasi_esakip\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\aplikasi_esakip\index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/aplikasi_esakip/img/clients-img/1.jpg
+HTTP_REFERER=http://localhost/aplikasi_esakip/
+---
+2020/04/24 13:31:53 [error] [exception.CHttpException.404] CHttpException: Tidak bisa mengurai request "img/clients-img/1.jpg" in C:\xampp\htdocs\aplikasi_esakip\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\aplikasi_esakip\framework\web\CWebApplication.php(141): CWebApplication->runController('img/clients-img...')
+#1 C:\xampp\htdocs\aplikasi_esakip\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\aplikasi_esakip\index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/aplikasi_esakip/img/clients-img/1.jpg
+HTTP_REFERER=http://localhost/aplikasi_esakip/
+---
+2020/04/24 13:33:58 [error] [exception.CHttpException.404] CHttpException: Tidak bisa mengurai request "img/clients-img/1.jpg" in C:\xampp\htdocs\aplikasi_esakip\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\aplikasi_esakip\framework\web\CWebApplication.php(141): CWebApplication->runController('img/clients-img...')
+#1 C:\xampp\htdocs\aplikasi_esakip\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\aplikasi_esakip\index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/aplikasi_esakip/img/clients-img/1.jpg
+HTTP_REFERER=http://localhost/aplikasi_esakip/
+---
+2020/04/24 13:33:58 [error] [exception.CHttpException.404] CHttpException: Tidak bisa mengurai request "img/clients-img/1.jpg" in C:\xampp\htdocs\aplikasi_esakip\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\aplikasi_esakip\framework\web\CWebApplication.php(141): CWebApplication->runController('img/clients-img...')
+#1 C:\xampp\htdocs\aplikasi_esakip\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\aplikasi_esakip\index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/aplikasi_esakip/img/clients-img/1.jpg
+HTTP_REFERER=http://localhost/aplikasi_esakip/
+---
+2020/04/24 13:33:58 [error] [exception.CHttpException.404] CHttpException: Tidak bisa mengurai request "img/bg-img/hero-1.jpg" in C:\xampp\htdocs\aplikasi_esakip\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\aplikasi_esakip\framework\web\CWebApplication.php(141): CWebApplication->runController('img/bg-img/hero...')
+#1 C:\xampp\htdocs\aplikasi_esakip\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\aplikasi_esakip\index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/aplikasi_esakip/img/bg-img/hero-1.jpg
+HTTP_REFERER=http://localhost/aplikasi_esakip/
+---
+2020/04/24 13:33:59 [error] [exception.CHttpException.404] CHttpException: Tidak bisa mengurai request "static/home//css/bootstrap/bootstrap.min.css.map" in C:\xampp\htdocs\aplikasi_esakip\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\aplikasi_esakip\framework\web\CWebApplication.php(141): CWebApplication->runController('static/home//cs...')
+#1 C:\xampp\htdocs\aplikasi_esakip\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\aplikasi_esakip\index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/aplikasi_esakip/static/home//css/bootstrap/bootstrap.min.css.map
+---
+2020/04/26 20:21:59 [error] [exception.CHttpException.404] CHttpException: Tidak bisa mengurai request "img/bg-img/hero-1.jpg" in C:\xampp\htdocs\aplikasi_esakip\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\aplikasi_esakip\framework\web\CWebApplication.php(141): CWebApplication->runController('img/bg-img/hero...')
+#1 C:\xampp\htdocs\aplikasi_esakip\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\aplikasi_esakip\index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/aplikasi_esakip/img/bg-img/hero-1.jpg
+HTTP_REFERER=http://localhost/aplikasi_esakip/
+---
+2020/04/26 20:21:59 [error] [exception.CHttpException.404] CHttpException: Tidak bisa mengurai request "img/clients-img/1.jpg" in C:\xampp\htdocs\aplikasi_esakip\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\aplikasi_esakip\framework\web\CWebApplication.php(141): CWebApplication->runController('img/clients-img...')
+#1 C:\xampp\htdocs\aplikasi_esakip\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\aplikasi_esakip\index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/aplikasi_esakip/img/clients-img/1.jpg
+HTTP_REFERER=http://localhost/aplikasi_esakip/
+---
+2020/04/26 20:23:04 [error] [exception.CHttpException.404] CHttpException: Tidak bisa mengurai request "img/clients-img/1.jpg" in C:\xampp\htdocs\aplikasi_esakip\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\aplikasi_esakip\framework\web\CWebApplication.php(141): CWebApplication->runController('img/clients-img...')
+#1 C:\xampp\htdocs\aplikasi_esakip\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\aplikasi_esakip\index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/aplikasi_esakip/img/clients-img/1.jpg
+HTTP_REFERER=http://localhost/aplikasi_esakip/
+---
+2020/04/26 20:23:04 [error] [exception.CHttpException.404] CHttpException: Tidak bisa mengurai request "img/bg-img/hero-1.jpg" in C:\xampp\htdocs\aplikasi_esakip\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\aplikasi_esakip\framework\web\CWebApplication.php(141): CWebApplication->runController('img/bg-img/hero...')
+#1 C:\xampp\htdocs\aplikasi_esakip\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\aplikasi_esakip\index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/aplikasi_esakip/img/bg-img/hero-1.jpg
+HTTP_REFERER=http://localhost/aplikasi_esakip/
+---
+2020/04/26 20:23:04 [error] [exception.CHttpException.404] CHttpException: Tidak bisa mengurai request "img/clients-img/1.jpg" in C:\xampp\htdocs\aplikasi_esakip\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\aplikasi_esakip\framework\web\CWebApplication.php(141): CWebApplication->runController('img/clients-img...')
+#1 C:\xampp\htdocs\aplikasi_esakip\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\aplikasi_esakip\index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/aplikasi_esakip/img/clients-img/1.jpg
+HTTP_REFERER=http://localhost/aplikasi_esakip/
+---
+2020/04/26 20:25:45 [error] [exception.CHttpException.404] CHttpException: Tidak bisa mengurai request "img/clients-img/1.jpg" in C:\xampp\htdocs\aplikasi_esakip\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\aplikasi_esakip\framework\web\CWebApplication.php(141): CWebApplication->runController('img/clients-img...')
+#1 C:\xampp\htdocs\aplikasi_esakip\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\aplikasi_esakip\index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/aplikasi_esakip/img/clients-img/1.jpg
+HTTP_REFERER=http://localhost/aplikasi_esakip/
+---
+2020/04/26 20:25:45 [error] [exception.CHttpException.404] CHttpException: Tidak bisa mengurai request "img/bg-img/hero-1.jpg" in C:\xampp\htdocs\aplikasi_esakip\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\aplikasi_esakip\framework\web\CWebApplication.php(141): CWebApplication->runController('img/bg-img/hero...')
+#1 C:\xampp\htdocs\aplikasi_esakip\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\aplikasi_esakip\index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/aplikasi_esakip/img/bg-img/hero-1.jpg
+HTTP_REFERER=http://localhost/aplikasi_esakip/
+---
+2020/04/26 20:25:45 [error] [exception.CHttpException.404] CHttpException: Tidak bisa mengurai request "img/clients-img/1.jpg" in C:\xampp\htdocs\aplikasi_esakip\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\aplikasi_esakip\framework\web\CWebApplication.php(141): CWebApplication->runController('img/clients-img...')
+#1 C:\xampp\htdocs\aplikasi_esakip\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\aplikasi_esakip\index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/aplikasi_esakip/img/clients-img/1.jpg
+HTTP_REFERER=http://localhost/aplikasi_esakip/
+---
+2020/04/26 20:26:33 [error] [exception.CHttpException.404] CHttpException: Tidak bisa mengurai request "img/clients-img/1.jpg" in C:\xampp\htdocs\aplikasi_esakip\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\aplikasi_esakip\framework\web\CWebApplication.php(141): CWebApplication->runController('img/clients-img...')
+#1 C:\xampp\htdocs\aplikasi_esakip\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\aplikasi_esakip\index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/aplikasi_esakip/img/clients-img/1.jpg
+HTTP_REFERER=http://localhost/aplikasi_esakip/
+---
+2020/04/26 20:26:33 [error] [exception.CHttpException.404] CHttpException: Tidak bisa mengurai request "img/bg-img/hero-1.jpg" in C:\xampp\htdocs\aplikasi_esakip\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\aplikasi_esakip\framework\web\CWebApplication.php(141): CWebApplication->runController('img/bg-img/hero...')
+#1 C:\xampp\htdocs\aplikasi_esakip\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\aplikasi_esakip\index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/aplikasi_esakip/img/bg-img/hero-1.jpg
+HTTP_REFERER=http://localhost/aplikasi_esakip/
+---
+2020/04/26 20:26:33 [error] [exception.CHttpException.404] CHttpException: Tidak bisa mengurai request "img/clients-img/1.jpg" in C:\xampp\htdocs\aplikasi_esakip\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\aplikasi_esakip\framework\web\CWebApplication.php(141): CWebApplication->runController('img/clients-img...')
+#1 C:\xampp\htdocs\aplikasi_esakip\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\aplikasi_esakip\index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/aplikasi_esakip/img/clients-img/1.jpg
+HTTP_REFERER=http://localhost/aplikasi_esakip/
+---
+2020/04/26 20:28:39 [error] [exception.CHttpException.404] CHttpException: Tidak bisa mengurai request "img/clients-img/1.jpg" in C:\xampp\htdocs\aplikasi_esakip\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\aplikasi_esakip\framework\web\CWebApplication.php(141): CWebApplication->runController('img/clients-img...')
+#1 C:\xampp\htdocs\aplikasi_esakip\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\aplikasi_esakip\index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/aplikasi_esakip/img/clients-img/1.jpg
+HTTP_REFERER=http://localhost/aplikasi_esakip/
+---
+2020/04/26 20:28:39 [error] [exception.CHttpException.404] CHttpException: Tidak bisa mengurai request "img/clients-img/1.jpg" in C:\xampp\htdocs\aplikasi_esakip\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\aplikasi_esakip\framework\web\CWebApplication.php(141): CWebApplication->runController('img/clients-img...')
+#1 C:\xampp\htdocs\aplikasi_esakip\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\aplikasi_esakip\index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/aplikasi_esakip/img/clients-img/1.jpg
+HTTP_REFERER=http://localhost/aplikasi_esakip/
+---
+2020/04/26 20:28:50 [error] [exception.CHttpException.404] CHttpException: Tidak bisa mengurai request "img/clients-img/1.jpg" in C:\xampp\htdocs\aplikasi_esakip\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\aplikasi_esakip\framework\web\CWebApplication.php(141): CWebApplication->runController('img/clients-img...')
+#1 C:\xampp\htdocs\aplikasi_esakip\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\aplikasi_esakip\index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/aplikasi_esakip/img/clients-img/1.jpg
+HTTP_REFERER=http://localhost/aplikasi_esakip/
+---
+2020/04/26 20:28:50 [error] [exception.CHttpException.404] CHttpException: Tidak bisa mengurai request "img/clients-img/1.jpg" in C:\xampp\htdocs\aplikasi_esakip\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\aplikasi_esakip\framework\web\CWebApplication.php(141): CWebApplication->runController('img/clients-img...')
+#1 C:\xampp\htdocs\aplikasi_esakip\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\aplikasi_esakip\index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/aplikasi_esakip/img/clients-img/1.jpg
+HTTP_REFERER=http://localhost/aplikasi_esakip/
+---
+2020/04/26 20:29:47 [error] [exception.CHttpException.404] CHttpException: Tidak bisa mengurai request "img/clients-img/1.jpg" in C:\xampp\htdocs\aplikasi_esakip\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\aplikasi_esakip\framework\web\CWebApplication.php(141): CWebApplication->runController('img/clients-img...')
+#1 C:\xampp\htdocs\aplikasi_esakip\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\aplikasi_esakip\index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/aplikasi_esakip/img/clients-img/1.jpg
+HTTP_REFERER=http://localhost/aplikasi_esakip/
+---
+2020/04/26 20:29:47 [error] [exception.CHttpException.404] CHttpException: Tidak bisa mengurai request "img/clients-img/1.jpg" in C:\xampp\htdocs\aplikasi_esakip\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\aplikasi_esakip\framework\web\CWebApplication.php(141): CWebApplication->runController('img/clients-img...')
+#1 C:\xampp\htdocs\aplikasi_esakip\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\aplikasi_esakip\index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/aplikasi_esakip/img/clients-img/1.jpg
+HTTP_REFERER=http://localhost/aplikasi_esakip/
+---
+2020/04/26 20:41:11 [error] [exception.CHttpException.404] CHttpException: Tidak bisa mengurai request "static/home/css/bootstrap/bootstrap.min.css.map" in C:\xampp\htdocs\aplikasi_esakip\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\aplikasi_esakip\framework\web\CWebApplication.php(141): CWebApplication->runController('static/home/css...')
+#1 C:\xampp\htdocs\aplikasi_esakip\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\aplikasi_esakip\index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/aplikasi_esakip/static/home/css/bootstrap/bootstrap.min.css.map
+---
+2020/04/26 20:44:55 [error] [exception.CHttpException.404] CHttpException: Tidak bisa mengurai request "static/home/css/bootstrap/bootstrap.min.css.map" in C:\xampp\htdocs\aplikasi_esakip\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\aplikasi_esakip\framework\web\CWebApplication.php(141): CWebApplication->runController('static/home/css...')
+#1 C:\xampp\htdocs\aplikasi_esakip\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\aplikasi_esakip\index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/aplikasi_esakip/static/home/css/bootstrap/bootstrap.min.css.map
+---

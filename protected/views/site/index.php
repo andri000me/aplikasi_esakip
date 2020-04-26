@@ -1,14 +1,13 @@
 <div class="row">
     <div class="col-md-12" style="padding:0">
         <div id="myCarousel" class="carousel slide" data-ride="carousel">
-        <?php echo Yii::app()->baseUrl; ?>
             <!-- Wrapper for slides -->
             <div class="carousel-inner">
                 <div class="item active">
                     <img src="<?= Yii::app()->baseUrl; ?>/static/img/image-1.jpg" alt=""
                          >
                     <div class="carousel-caption hidden-xs">
-                        <h3>Jawa Barat Maju dan Sejahtera untuk Semua</h3>
+                        <h3>Menuju Sukabumi Lebih Baik</h3>
                     </div>
                 </div>
 
@@ -72,7 +71,7 @@
                     <h4>Transparan</h4>
                 </div>
             </div>
-        </div>
+        </div> 
         <div class="col-md-4">
             <div class="service">
                 <i class="fa fa-check-square-o service-icon"></i>
@@ -90,7 +89,7 @@
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.206358474283!2d106.55193816534413!3d-6.98495534495399!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xa5e12d919db89daa!2sOffice%20of%20the%20Secretariat%20of%20Kab%20Sukabumi!5e0!3m2!1sen!2sid!4v1568707380362!5m2!1sen!2sid" width="100%" height="180" frameborder="0" style="border:0" allowfullscreen></iframe>
         </div>
         <div class="col-md-4">
-            Bagian Akuntabilitas dan Organisasi<BR>
+            Bagian Organisasi<BR>
             Sekretariat Daerah Kabupaten Sukabumi<BR>
             Jalan Siliwangi No. 10,<BR>
             Palabuhanratu - Jawa Barat<BR>
