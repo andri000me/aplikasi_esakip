@@ -137,7 +137,7 @@
             <div class="row no-gutter">
                 <?php if (Yii::app()->user->isAdmin()) { ?>
                 <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
-                    <div class="panel" style="background-color: #000066;">
+                    <div class="panel" style="background-color: #6c5ce7;">
                         <div class="panel-heading">
                             <h4>Total User</h4>
                         </div>
@@ -151,7 +151,7 @@
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
-                    <div class="panel" style="background-color: #ffcc66;">
+                    <div class="panel" style="background-color: #00b894;">
                         <div class="panel-heading">
                             <h4>Total OPD</h4>
                         </div>
@@ -181,7 +181,7 @@
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
-                    <div class="panel" style="background-color: #cc3300;">
+                    <div class="panel" style="background-color: #636e72;">
                         <div class="panel-heading">
                             <h4>Total Admin</h4>
                         </div>
