@@ -4,7 +4,7 @@ class Constant extends CController {
 
     public static $jumlah_halaman_per_page = 20;
     
-    public static $list_tahun = array("2016", "2017", "2018");
+    public static $list_tahun = array("2017", "2020", "2021", "2022", "2023", "2024");
 
     public static $list_table_copy = array("tvisi"=>"Visi", "tmisi"=>"Misi", "ttujuan"=>"Tujuan", "tsasaran"=>"Sasaran", "tindikator"=>"Indikator");
 
@@ -30,7 +30,7 @@ class Constant extends CController {
         4=>"Super Viewer",
     );
 
-    public static $listtahunLogin = array("2017"=>"2017", "2018"=>"2018", "2019"=>"2019");
+    public static $listtahunLogin = array("2017"=>"2017", "2020"=>"2020", "2021"=>"2021", "2022"=>"2022", "2023"=>"2023", "2024"=>"2024");
 
     public static $listeselon = array("I"=>"Eselon I", "II"=>"Eselon II","III"=>"Eselon III","IV"=>"Eselon IV");
     

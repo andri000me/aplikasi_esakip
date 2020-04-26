@@ -294,11 +294,11 @@
                     <span>Bantuan</span>
                 </a>
                 <ul <?php echo in_array($ctrlName, $arrHelp) ? "style='display: block'" : "" ?>>
-                    <li>
+                    <!-- <li>
                         <a href='<?php echo Yii::app()->baseUrl; ?>/bantuan/kontak' <?php echo $ctrlName === "bantuan/kontak" ? "class='select'" : "" ?>>
                             <span>Kontak Teknis</span>
                         </a>
-                    </li>
+                    </li> -->
                     <li>
                         <a href='<?php echo Yii::app()->baseUrl; ?>/bantuan/manual' <?php echo $ctrlName === "bantuan/manual" ? "class='select'" : "" ?>>
                             <span>Manual</span>
