@@ -19,13 +19,13 @@
         <!-- Row Starts -->
         <div class="row no-gutter">
             <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
-                <div class="panel" style="background-color: red;">
+                <div class="panel" style="background-color: #1abc9c;">
                     <div class="panel-heading">
                         <h4>Total Visi</h4>
                     </div>
                     <div class="panel-body">
                         <div class="daily-stats">
-                            <h1 class="number" style="color: #333333;">
+                            <h1 class="number" style="color: #fff;">
                                 <?php echo Yii::app()->format->formatNumber($jmlVisi) ?>
                             </h1>
                         </div>
@@ -33,13 +33,13 @@
                 </div>
             </div>
             <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
-                <div class="panel" style="background-color: blue;">
+                <div class="panel" style="background-color: #2ecc71;">
                     <div class="panel-heading">
                         <h4>Total Misi</h4>
                     </div>
                     <div class="panel-body">
                         <div class="daily-stats">
-                            <h1 class="number primary" style="color: #fcfcfc;">
+                            <h1 class="number primary" style="color: #fff;">
                                 <?php echo Yii::app()->format->formatNumber($jmlMisi) ?>
                             </h1>
                         </div>
@@ -47,13 +47,13 @@
                 </div>
             </div>
             <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
-                <div class="panel" style="background-color: green;">
+                <div class="panel" style="background-color: #3498db;">
                     <div class="panel-heading">
                         <h4>Total Tujuan</h4>
                     </div>
                     <div class="panel-body">
                         <div class="daily-stats">
-                            <h1 class="number primary" style="color: #fcfcfc;">
+                            <h1 class="number primary" style="color: #fff;">
                                 <?php echo Yii::app()->format->formatNumber($jmlTujuan) ?>
                             </h1>
                         </div>
@@ -61,13 +61,13 @@
                 </div>
             </div>
             <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
-                <div class="panel" style="background-color: pink;">
+                <div class="panel" style="background-color: #e67e22;">
                     <div class="panel-heading">
                         <h4>Total Sasaran</h4>
                     </div>
                     <div class="panel-body">
                         <div class="daily-stats">
-                            <h1 class="number primary" >
+                            <h1 class="number primary" style="color: #fff;">
                                 <?php echo Yii::app()->format->formatNumber($jmlSasaran) ?>
                             </h1>
                         </div>
@@ -77,13 +77,13 @@
         </div>
         <div class="row no-gutter">
             <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
-                <div class="panel" style="background-color: orange;">
+                <div class="panel" style="background-color: #8e44ad;">
                     <div class="panel-heading">
                         <h4>Total Indikator</h4>
                     </div>
                     <div class="panel-body">
                         <div class="daily-stats">
-                            <h1 class="number" style="color: #333333;">
+                            <h1 class="number" style="color: #fff;">
                                 <?php echo Yii::app()->format->formatNumber($jmlIndikator) ?>
                             </h1>
                         </div>
@@ -91,13 +91,13 @@
                 </div>
             </div>
             <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
-                <div class="panel" style="background-color: lightgreen;">
+                <div class="panel" style="background-color: #e74c3c;">
                     <div class="panel-heading">
                         <h4>Total Program</h4>
                     </div>
                     <div class="panel-body">
                         <div class="daily-stats">
-                            <h1 class="number primary">
+                            <h1 class="number primary" style="color: #fff;">
                                 <?php echo Yii::app()->format->formatNumber($jmlProgram) ?>
                             </h1>
                         </div>
@@ -105,13 +105,13 @@
                 </div>
             </div>
             <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
-                <div class="panel" style="background-color: lightblue;">
+                <div class="panel" style="background-color: #d35400;">
                     <div class="panel-heading">
                         <h4>Total Kegiatan</h4>
                     </div>
                     <div class="panel-body">
                         <div class="daily-stats">
-                            <h1 class="number primary">
+                            <h1 class="number primary" style="color: #fff;">
                                 <?php echo Yii::app()->format->formatNumber($jmlKegiatan) ?>
                             </h1>
                         </div>
@@ -119,13 +119,13 @@
                 </div>
             </div>
             <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
-                <div class="panel" style="background-color: #ff00ff;">
+                <div class="panel" style="background-color: #f39c12;">
                     <div class="panel-heading">
                         <h4>Total Aktivitas</h4>
                     </div>
                     <div class="panel-body">
                         <div class="daily-stats">
-                            <h1 class="number primary" style="color: #333333;">
+                            <h1 class="number primary" style="color: #fff;">
                                 <?php echo Yii::app()->format->formatNumber($jmlAktivitas) ?>
                             </h1>
                         </div>
@@ -143,7 +143,7 @@
                         </div>
                         <div class="panel-body">
                             <div class="daily-stats">
-                                <h1 class="number">
+                                <h1 class="number" style="color: #fff;">
                                     <?php echo Yii::app()->format->formatNumber($jmlUser) ?>
                                 </h1>
                             </div>
@@ -157,7 +157,7 @@
                         </div>
                         <div class="panel-body">
                             <div class="daily-stats">
-                                <h1 class="number primary">
+                                <h1 class="number primary" style="color: #fff;">
                                     <?php echo Yii::app()->format->formatNumber($jmlOpd) ?>
                                 </h1>
                             </div>
@@ -173,7 +173,7 @@
                         </div>
                         <div class="panel-body">
                             <div class="daily-stats">
-                                <h1 class="number primary">
+                                <h1 class="number primary" style="color: #fff;">
                                     <?php echo Yii::app()->format->formatNumber($jmlUserOpd) ?>
                                 </h1>
                             </div>
@@ -187,7 +187,7 @@
                         </div>
                         <div class="panel-body">
                             <div class="daily-stats">
-                                <h1 class="number primary">
+                                <h1 class="number primary" style="color: #fff;">
                                     <?php echo Yii::app()->format->formatNumber($jmlUserAdmin) ?>
                                 </h1>
                             </div>
